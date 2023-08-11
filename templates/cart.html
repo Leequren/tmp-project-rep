@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="public/style.css">
+	<title>Title</title>
+</head>
+<body>
+	<div class="main-content flex flex-col bg-gray-1 min-h-screen">
+		<header class="bg-gray-800 md:bg-white shadow shadow-gray-500 rounded-b-md">
+			<div class="flex justify-center md:justify-between m-auto w-11/12">
+				<div class="flex items-center ml-8">
+					<svg class="w-32 h-12 mr-2 block md:hidden" viewBox="0 0 363 75" fill="none"
+					     xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_88_1006)">
+							<path d="M32.3842 15.7371H14.9515V9.46398H49.8169V12.7629H64.165C64.165 1.24397 58.4662 0 32.4516 0C6.37118 0 0.603455 1.02776 0.603455 12.6005C0.603455 24.1733 5.83507 24.1733 32.3842 24.1733H50.353V27.56C55.0356 27.0378 59.8552 26.5441 64.8119 26.0789C64.397 15.7376 58.2812 15.7371 32.3842 15.7371Z"
+							      fill="white"/>
+							<path d="M14.4154 30.4469V27.1484H0C0 30.6751 0.522643 33.2335 1.96522 35.0864C9.53086 33.4315 18.1983 31.8809 27.9109 30.4469H14.4154Z"
+							      fill="white"/>
+							<path d="M6.18677 37.9323C10.9574 39.6656 19.0633 39.9105 32.3842 39.9105C56.9272 39.9105 63.8257 39.0321 64.7275 29.7588C52.3394 30.9249 40.7931 32.2775 30.189 33.8077C21.3864 35.0783 13.3246 36.4638 6.18677 37.9323Z"
+							      fill="white"/>
+							<path d="M139.674 21.687C139.927 19.9704 139.996 17.9019 139.996 15.4124C139.996 2.75751 137.649 1.02734 119.48 1.02734H78.3789V24.9103C84.7587 24.4055 91.3272 23.9466 98.0845 23.5337C111.556 22.7101 125.455 22.0944 139.674 21.687ZM92.727 10.4908H125.714V20.3872H92.727V10.4908Z"
+							      fill="white"/>
+							<path d="M78.3789 28.5757V38.883H92.727V29.8515H119.48C131.372 29.8515 136.435 29.1517 138.546 25.377C124.793 25.7833 111.347 26.3854 98.3036 27.1813C91.4724 27.5987 84.8309 28.0635 78.3789 28.5757Z"
+							      fill="white"/>
+							<path d="M153.283 25.02L143.953 38.8833H159.977L164.2 32.664H195.445L199.668 38.8833H215.693L206.316 24.949C198.222 24.8167 190.045 24.7503 181.785 24.75C172.179 24.75 162.679 24.84 153.283 25.02Z"
+							      fill="white"/>
+							<path d="M179.824 9.40925L187.709 21.1074C193.117 21.1282 198.49 21.1779 203.829 21.2562L190.216 1.02734H169.432L155.775 21.3173C161.121 21.225 166.504 21.1613 171.924 21.1262L179.824 9.40925Z"
+							      fill="white"/>
+							<path d="M274.563 30.4461H238.357V25.8363C233.638 25.6504 228.881 25.4882 224.084 25.3496C224.609 39.0844 228.58 39.9101 256.66 39.9101C282.051 39.9101 287.63 39.2578 288.836 28.8721C284.184 28.4853 279.426 28.1234 274.562 27.7864L274.563 30.4461Z"
+							      fill="white"/>
+							<path d="M238.358 9.46398H274.564V13.6826H289.047C288.375 0.757243 283.95 0 256.66 0C225.348 0 224.007 1.02776 224.007 19.9552C224.007 20.5509 224.009 21.1294 224.012 21.6906C228.832 21.8298 233.613 21.9923 238.356 22.1778L238.358 9.46398Z"
+							      fill="white"/>
+							<path d="M333.381 33.8074C323.757 32.4188 313.356 31.1758 302.254 30.0859V38.883L361.585 38.8308C360.895 38.678 360.195 38.5256 359.485 38.3738C351.842 36.7403 343.059 35.2044 333.381 33.8074Z"
+							      fill="white"/>
+							<path d="M316.602 24.1729H361.793V15.7367H316.602V10.4908H363.002V1.02734H302.254V26.4133C307.175 26.8944 311.958 27.405 316.602 27.945V24.1729Z"
+							      fill="white"/>
+							<path d="M363.002 35.397V29.4189H328.37C330.238 29.67 332.08 29.9266 333.895 30.1887C344.935 31.7821 354.662 33.5232 363.002 35.397Z"
+							      fill="white"/>
+							<path d="M19.2171 60.0893H12.1244V74.5918H7.05905V60.0893H0V56.7188H19.2171V60.0893Z"
+							      fill="white"/>
+							<path d="M39.507 70.7627H29.2188L27.2562 74.5928H22.0013L31.8776 56.7197H36.943L46.8514 74.5912H41.4696L39.507 70.7627ZM37.8924 67.6225L34.3785 60.7812L30.865 67.6225H37.8924Z"
+							      fill="white"/>
+							<path d="M52.9605 56.7188H70.8464V60.0125H58.0574V63.689H64.1986C66.8787 63.689 68.9206 64.1403 70.3243 65.0427C71.728 65.9451 72.4297 67.2472 72.4294 68.949C72.4294 70.7368 71.6484 72.124 70.0865 73.1107C68.5246 74.0974 66.3193 74.5911 63.4704 74.5918H52.9605V56.7188ZM63.1855 71.5278C64.4939 71.5278 65.4964 71.3189 66.1929 70.9011C66.8894 70.4833 67.2376 69.8741 67.2376 69.0733C67.2376 67.5066 65.8869 66.7232 63.1855 66.7232H58.0574V71.5231L63.1855 71.5278Z"
+							      fill="white"/>
+							<path d="M94.3032 70.7627H84.0166L82.054 74.5928H76.7975L86.6744 56.7197H91.7392L101.648 74.5928H96.2659L94.3032 70.7627ZM92.6892 67.6225L89.1752 60.7812L85.6612 67.6225H92.6892Z"
+							      fill="white"/>
+							<path d="M124.282 56.7188V74.5918H119.217V68.1573C117.296 68.7192 115.513 69.0002 113.867 69.0002C110.891 69.0002 108.612 68.4257 107.03 67.2768C105.447 66.1279 104.656 64.4724 104.656 62.3103V56.7188H109.72V61.8508C109.72 63.0766 110.127 64.0001 110.939 64.6212C111.752 65.2424 112.928 65.5529 114.469 65.5529C116.157 65.5529 117.74 65.2892 119.217 64.7617V56.7193L124.282 56.7188Z"
+							      fill="white"/>
+							<path d="M153.279 56.7188V74.5918H148.151V67.2643H138.084V74.5923H132.956V56.7188H138.084V63.7653H148.15V56.7188H153.279Z"
+							      fill="white"/>
+							<path d="M178.935 64.0468C180.381 65.0171 181.104 66.4555 181.104 68.362C181.104 70.3876 180.307 71.9322 178.714 72.9958C177.121 74.0595 174.878 74.5914 171.987 74.5918H161.984V56.7188H167.08V62.5913H172.715C175.416 62.5913 177.49 63.0765 178.935 64.0468ZM174.819 70.7366C175.567 70.2092 175.942 69.4432 175.942 68.4388C175.942 66.5838 174.528 65.6561 171.701 65.6558H167.08V71.5283H171.702C173.032 71.528 174.071 71.2641 174.819 70.7366ZM183.92 56.7188H189.016V74.5918H183.92V56.7188Z"
+							      fill="white"/>
+							<path d="M197.692 56.7183H202.79V68.3642L213.363 56.7183H218.174V74.5914H213.108V62.9737L202.535 74.5914H197.692V56.7183ZM201.775 51.6631H205.289C205.331 52.9071 206.207 53.529 207.918 53.529C208.762 53.529 209.406 53.3715 209.849 53.0564C210.292 52.7413 210.524 52.2776 210.546 51.6652H214.06C214.038 52.9415 213.521 53.9117 212.508 54.5756C211.495 55.2395 209.965 55.5708 207.918 55.5694C203.865 55.5694 201.818 54.2673 201.775 51.6631Z"
+							      fill="white"/>
+							<path d="M238.971 56.7188H256.857V60.0125H244.067V63.689H250.208C252.888 63.689 254.93 64.1403 256.334 65.0427C257.738 65.9451 258.44 67.2472 258.439 68.949C258.439 70.7368 257.658 72.124 256.097 73.1107C254.535 74.0974 252.33 74.5911 249.481 74.5918H238.971V56.7188ZM249.196 71.5278C250.504 71.5278 251.507 71.3189 252.203 70.9011C252.9 70.4833 253.248 69.8741 253.247 69.0733C253.247 67.5066 251.897 66.7232 249.196 66.7232H244.068V71.5231L249.196 71.5278Z"
+							      fill="white"/>
+							<path d="M284.683 56.7179L275.249 70.8632C274.342 72.2252 273.25 73.2551 271.973 73.9528C270.696 74.6505 269.309 74.9986 267.811 74.9972C266.649 74.9972 265.446 74.793 264.201 74.3847L265.436 71.2439C266.322 71.4654 267.061 71.5761 267.652 71.5761C268.285 71.5761 268.855 71.4526 269.361 71.2058C269.868 70.959 270.332 70.5716 270.754 70.0438L270.944 69.8396L262.207 56.7158H267.684L273.572 66.3161L279.65 56.7158L284.683 56.7179Z"
+							      fill="white"/>
+							<path d="M307.285 60.0893H300.194V74.5918H295.129V60.0893H288.07V56.7188H307.287L307.285 60.0893Z"
+							      fill="white"/>
+							<path d="M313.68 56.7188H318.776V68.3646L329.349 56.7188H334.161V74.5918H329.096V62.9741L318.523 74.5918H313.68V56.7188Z"
+							      fill="white"/>
+							<path d="M351.414 67.3917H347.868V74.5918H342.772V56.7188H347.868V63.9444H351.54L357.365 56.7188H362.778L355.529 65.3487L363 74.5923H357.175L351.414 67.3917Z"
+							      fill="white"/>
+						</g>
+						<defs>
+							<clipPath id="clip0_88_1006">
+								<rect width="363" height="75" fill="white"/>
+							</clipPath>
+						</defs>
+					</svg>
+
+					<svg class="w-32 h-12 mr-2 hidden md:block" viewBox="0 0 213 44" fill="none"
+					     xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_5_99)">
+							<path d="M19.0023 9.23242H8.77319V5.5522H29.2314V7.4876H37.6505C37.6505 0.729795 34.3066 0 19.0418 0C3.73843 0 0.354065 0.602954 0.354065 7.39231C0.354065 14.1817 3.42386 14.1817 19.0023 14.1817H29.5459V16.1685C32.2936 15.8622 35.1216 15.5725 38.0301 15.2996C37.7867 9.23273 34.1981 9.23242 19.0023 9.23242Z"
+							      fill="#212121"/>
+							<path d="M8.45864 17.8619V15.9268H0C0 17.9958 0.306675 19.4967 1.15315 20.5838C5.59249 19.6129 10.6783 18.7032 16.3775 17.8619H8.45864Z"
+							      fill="#212121"/>
+							<path d="M3.63025 22.2535C6.42953 23.2704 11.1859 23.4141 19.0023 23.4141C33.4036 23.4141 37.4514 22.8988 37.9806 17.4584C30.7116 18.1425 23.9365 18.9361 17.7142 19.8338C12.5491 20.5792 7.81854 21.392 3.63025 22.2535Z"
+							      fill="#212121"/>
+							<path d="M81.9576 12.7233C82.1056 11.7163 82.1467 10.5027 82.1467 9.04218C82.1467 1.618 80.7695 0.602966 70.1079 0.602966H45.9909V14.6143C49.7344 14.3181 53.5887 14.0489 57.5537 13.8067C65.4582 13.3235 73.6142 12.9623 81.9576 12.7233ZM54.41 6.15486H73.7661V11.9607H54.41V6.15486Z"
+							      fill="#212121"/>
+							<path d="M45.9909 16.7644V22.8115H54.41V17.5129H70.1079C77.0858 17.5129 80.0568 17.1024 81.2956 14.8879C73.2257 15.1262 65.3361 15.4795 57.6822 15.9464C53.6739 16.1913 49.7768 16.464 45.9909 16.7644Z"
+							      fill="#212121"/>
+							<path d="M89.943 14.6783L84.4681 22.8114H93.8708L96.3488 19.1628H114.682L117.161 22.8114H126.564L121.062 14.6366C116.312 14.559 111.514 14.5201 106.667 14.5199C101.031 14.5199 95.4561 14.5727 89.943 14.6783Z"
+							      fill="#212121"/>
+							<path d="M105.516 5.52035L110.143 12.3832C113.316 12.3955 116.469 12.4246 119.602 12.4706L111.614 0.602966H99.4186L91.405 12.5064C94.542 12.4523 97.7008 12.4149 100.881 12.3943L105.516 5.52035Z"
+							      fill="#212121"/>
+							<path d="M161.107 17.8619H139.862V15.1575C137.093 15.0484 134.302 14.9532 131.487 14.8719C131.795 22.9297 134.125 23.4141 150.602 23.4141C165.501 23.4141 168.774 23.0314 169.482 16.9385C166.753 16.7115 163.961 16.4992 161.107 16.3015L161.107 17.8619Z"
+							      fill="#212121"/>
+							<path d="M139.863 5.5522H161.108V8.02713H169.606C169.212 0.444249 166.615 0 150.602 0C132.229 0 131.442 0.602954 131.442 11.707C131.442 12.0565 131.443 12.3959 131.445 12.7251C134.273 12.8068 137.079 12.9021 139.862 13.011L139.863 5.5522Z"
+							      fill="#212121"/>
+							<path d="M195.62 19.8337C189.973 19.0191 183.87 18.2899 177.356 17.6505V22.8114L212.17 22.7808C211.765 22.6911 211.354 22.6018 210.938 22.5127C206.453 21.5544 201.299 20.6533 195.62 19.8337Z"
+							      fill="#212121"/>
+							<path d="M185.775 14.1817H212.292V9.23244H185.775V6.15486H213.001V0.602966H177.356V15.496C180.243 15.7783 183.05 16.0779 185.775 16.3947V14.1817Z"
+							      fill="#212121"/>
+							<path d="M213.001 20.7664V17.2592H192.68C193.776 17.4065 194.857 17.557 195.922 17.7108C202.4 18.6456 208.107 19.6671 213.001 20.7664Z"
+							      fill="#212121"/>
+							<path d="M11.2762 35.2523H7.11432V43.7604H4.14209V35.2523H0V33.2749H11.2762V35.2523Z"
+							      fill="#212121"/>
+							<path d="M23.1818 41.5143H17.1449L15.9933 43.7613H12.9099L18.7051 33.2758H21.6773L27.4914 43.7604H24.3334L23.1818 41.5143ZM22.2344 39.6721L20.1725 35.6585L18.1109 39.6721H22.2344Z"
+							      fill="#212121"/>
+							<path d="M31.076 33.2749H41.571V35.2072H34.0668V37.3641H37.6703C39.2428 37.3641 40.441 37.6289 41.2647 38.1583C42.0883 38.6877 42.5001 39.4516 42.4999 40.45C42.4999 41.4988 42.0416 42.3127 41.1251 42.8915C40.2087 43.4704 38.9146 43.76 37.2429 43.7604H31.076V33.2749ZM37.0758 41.9629C37.8435 41.9629 38.4317 41.8403 38.8404 41.5952C39.2491 41.3501 39.4535 40.9927 39.4535 40.5229C39.4535 39.6038 38.6609 39.1442 37.0758 39.1442H34.0668V41.9601L37.0758 41.9629Z"
+							      fill="#212121"/>
+							<path d="M55.3349 41.5143H49.299L48.1474 43.7613H45.063L50.8585 33.2758H53.8304L59.6445 43.7613H56.4866L55.3349 41.5143ZM54.3879 39.6721L52.3259 35.6585L50.264 39.6721H54.3879Z"
+							      fill="#212121"/>
+							<path d="M72.9258 33.2749V43.7604H69.9535V39.9855C68.8267 40.3152 67.7804 40.48 66.8144 40.48C65.0682 40.48 63.7309 40.143 62.8024 39.469C61.874 38.7949 61.4097 37.8237 61.4095 36.5553V33.2749H64.3814V36.2857C64.3814 37.0049 64.6198 37.5466 65.0966 37.911C65.5734 38.2754 66.2637 38.4576 67.1676 38.4576C68.1583 38.4576 69.087 38.3029 69.9538 37.9934V33.2752L72.9258 33.2749Z"
+							      fill="#212121"/>
+							<path d="M89.9403 33.2749V43.7604H86.9313V39.4616H81.0243V43.7607H78.0153V33.2749H81.0243V37.4089H86.931V33.2749H89.9403Z"
+							      fill="#212121"/>
+							<path d="M104.995 37.574C105.843 38.1433 106.268 38.9871 106.268 40.1056C106.268 41.294 105.8 42.2001 104.865 42.8241C103.93 43.4481 102.615 43.7602 100.918 43.7604H95.0483V33.2749H98.0388V36.7201H101.345C102.93 36.7201 104.147 37.0048 104.995 37.574ZM102.58 41.4987C103.019 41.1893 103.239 40.7399 103.239 40.1507C103.239 39.0624 102.409 38.5182 100.75 38.518H98.0388V41.9632H100.751C101.531 41.963 102.141 41.8082 102.58 41.4987ZM107.92 33.2749H110.91V43.7604H107.92V33.2749Z"
+							      fill="#212121"/>
+							<path d="M116.001 33.2749H118.992V40.1071L125.196 33.2749H128.019V43.7604H125.047V36.9447L118.843 43.7604H116.001V33.2749ZM118.397 30.3091H120.459C120.484 31.0389 120.998 31.4038 122.001 31.4038C122.497 31.4038 122.874 31.3114 123.134 31.1266C123.394 30.9417 123.531 30.6696 123.543 30.3104H125.605C125.593 31.0592 125.289 31.6283 124.695 32.0178C124.1 32.4073 123.203 32.6017 122.001 32.6009C119.623 32.6009 118.422 31.837 118.397 30.3091Z"
+							      fill="#212121"/>
+							<path d="M140.223 33.2749H150.718V35.2072H143.213V37.3641H146.817C148.389 37.3641 149.587 37.6289 150.411 38.1583C151.235 38.6877 151.646 39.4516 151.646 40.45C151.646 41.4988 151.188 42.3127 150.272 42.8915C149.355 43.4704 148.061 43.76 146.389 43.7604H140.223V33.2749ZM146.222 41.9629C146.99 41.9629 147.578 41.8403 147.987 41.5952C148.396 41.3501 148.6 40.9927 148.6 40.5229C148.6 39.6038 147.807 39.1442 146.222 39.1442H143.213V41.9601L146.222 41.9629Z"
+							      fill="#212121"/>
+							<path d="M167.045 33.2749L161.51 41.5735C160.977 42.3725 160.337 42.9767 159.587 43.386C158.838 43.7953 158.024 43.9996 157.145 43.9987C156.464 43.9987 155.758 43.879 155.027 43.6394L155.752 41.7968C156.272 41.9267 156.705 41.9917 157.052 41.9917C157.423 41.9917 157.758 41.9193 158.055 41.7744C158.352 41.6296 158.625 41.4024 158.872 41.0927L158.984 40.973L153.857 33.2737H157.071L160.525 38.9058L164.092 33.2737L167.045 33.2749Z"
+							      fill="#212121"/>
+							<path d="M180.308 35.2523H176.147V43.7604H173.175V35.2523H169.033V33.2749H180.309L180.308 35.2523Z"
+							      fill="#212121"/>
+							<path d="M184.06 33.2749H187.051V40.1072L193.255 33.2749H196.078V43.7604H193.106V36.9447L186.902 43.7604H184.06V33.2749Z"
+							      fill="#212121"/>
+							<path d="M206.201 39.5364H204.121V43.7604H201.131V33.2749H204.121V37.514H206.276L209.693 33.2749H212.87L208.616 38.3378L213 43.7607H209.582L206.201 39.5364Z"
+							      fill="#212121"/>
+						</g>
+						<defs>
+							<clipPath id="clip0_5_99">
+								<rect width="213" height="44" fill="white"/>
+							</clipPath>
+						</defs>
+					</svg>
+					<button class="hidden md:block bg-black text-white w-32 h-8 rounded-md font-semibold">
+						Связь
+					</button>
+				</div>
+
+				<div class="hidden md:flex items-center">
+					<label class="flex bg-gray-2 h-8 rounded-md">
+						<div class="inline-flex items-center">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+							     stroke-width="1.3"
+							     stroke="currentColor" class="inline w-6 h-6 object-center">
+								<path stroke-linecap="round" stroke-linejoin="round"
+								      d="M15.75 15.75l-2.489-2.489m0 0a3.375 3.375 0 10-4.773-4.773 3.375 3.375 0 004.774 4.774zM21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+							</svg>
+						</div>
+						<input class="font-medium placeholder-black text-gray-500 rounded bg-gray-2 focus:border-white enabled:border-white"
+						       type="text"
+						       placeholder="Поиск">
+					</label>
+					<button class="balance-button">Баланс: 7000</button>
+				</div>
+
+			</div>
+		</header>
+
+		<main class="flex-auto flex items-center justify-center drop-shadow-2xl my-2 mx-1">
+			<div class="cart w-11/12 rounded-md bg-white py-2 px-3 md:flex md:flex-col md:items-center">
+				<h2 class="font-semibold text-2xl text-center mb-4">Корзина товаров:</h2>
+				<div class="cart-list flex justify-center flex-wrap md:w-9/12">
+					<div class="cart-item flex relative bg-black-2 justify-between p-1 md:p-4 rounded-md w-full md:w-96 mr-1 mb-2">
+						<img class="w-12 md:w-20" src="./public/img/araram.png" alt="item">
+						<div class="flex items-center text-white font-semibold">
+							<h3 class="text-center">Must Have Araram</h3>
+						</div>
+						<div class="flex items-center">
+							<div class="bg-white flex h-6 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15"/>
+								</svg>
+								<h4>3</h4>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+								</svg>
+							</div>
+						</div>
+						<div class="flex items-center text-white">
+							<h4>1700Р</h4>
+						</div>
+					</div>
+
+					<div class="cart-item flex relative bg-black-2 justify-between p-1 md:p-4 rounded-md w-full md:w-96 mr-1 mb-2">
+						<img class="w-12 md:w-20" src="./public/img/araram.png" alt="item">
+						<div class="flex items-center text-white font-semibold">
+							<h3 class="text-center">Must Have Araram</h3>
+						</div>
+						<div class="flex items-center">
+							<div class="bg-white flex h-6 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15"/>
+								</svg>
+								<h4>3</h4>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+								</svg>
+							</div>
+						</div>
+						<div class="flex items-center text-white">
+							<h4>1700Р</h4>
+						</div>
+					</div>
+
+					<div class="cart-item flex relative bg-black-2 justify-between p-1 md:p-4 rounded-md w-full md:w-96 mr-1 mb-2">
+						<img class="w-12 md:w-20" src="./public/img/araram.png" alt="item">
+						<div class="flex items-center text-white font-semibold">
+							<h3 class="text-center">Must Have Araram</h3>
+						</div>
+						<div class="flex items-center">
+							<div class="bg-white flex h-6 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15"/>
+								</svg>
+								<h4>3</h4>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+								</svg>
+							</div>
+						</div>
+						<div class="flex items-center text-white">
+							<h4>1700Р</h4>
+						</div>
+					</div>
+
+					<div class="cart-item flex relative bg-black-2 justify-between p-1 md:p-4 rounded-md w-full md:w-96 mr-1 mb-2">
+						<img class="w-12 md:w-20" src="./public/img/araram.png" alt="item">
+						<div class="flex items-center text-white font-semibold">
+							<h3 class="text-center">Must Have Araram</h3>
+						</div>
+						<div class="flex items-center">
+							<div class="bg-white flex h-6 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15"/>
+								</svg>
+								<h4>3</h4>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+								</svg>
+							</div>
+						</div>
+						<div class="flex items-center text-white">
+							<h4>1700Р</h4>
+						</div>
+					</div>
+
+					<div class="cart-item flex relative bg-black-2 justify-between p-1 md:p-4 rounded-md w-full md:w-96 mr-1 mb-2">
+						<img class="w-12 md:w-20" src="./public/img/araram.png" alt="item">
+						<div class="flex items-center text-white font-semibold">
+							<h3 class="text-center">Must Have Araram</h3>
+						</div>
+						<div class="flex items-center">
+							<div class="bg-white flex h-6 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15"/>
+								</svg>
+								<h4>3</h4>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+								</svg>
+							</div>
+						</div>
+						<div class="flex items-center text-white">
+							<h4>1700Р</h4>
+						</div>
+					</div>
+
+					<div class="cart-item flex relative bg-black-2 justify-between p-1 md:p-4 rounded-md w-full md:w-96 mr-1 mb-2">
+						<img class="w-12 md:w-20" src="./public/img/araram.png" alt="item">
+						<div class="flex items-center text-white font-semibold">
+							<h3 class="text-center">Must Have Araram</h3>
+						</div>
+						<div class="flex items-center">
+							<div class="bg-white flex h-6 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15"/>
+								</svg>
+								<h4>3</h4>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+								</svg>
+							</div>
+						</div>
+						<div class="flex items-center text-white">
+							<h4>1700Р</h4>
+						</div>
+					</div>
+
+					<div class="cart-item flex relative bg-black-2 justify-between p-1 md:p-4 rounded-md w-full md:w-96 mr-1 mb-2">
+						<img class="w-12 md:w-20" src="./public/img/araram.png" alt="item">
+						<div class="flex items-center text-white font-semibold">
+							<h3 class="text-center">Must Have Araram</h3>
+						</div>
+						<div class="flex items-center">
+							<div class="bg-white flex h-6 rounded-md">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15"/>
+								</svg>
+								<h4>3</h4>
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+								     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
+								</svg>
+							</div>
+						</div>
+						<div class="flex items-center text-white">
+							<h4>1700Р</h4>
+						</div>
+					</div>
+				</div>
+				<div class="divider"></div>
+				<div class="text-right font-semibold w-full">
+					<h5>Позиций: 8</h5>
+					<h5>Итого: 6800Р</h5>
+				</div>
+				<div class="divider"></div>
+				<div class="info w-full flex flex-col md:flex-row">
+					<div class="flex w-full md:w-1/2 flex-col">
+						<div class="mb-4">
+							<h5>Доступных баллов: 6000Р</h5>
+							<h5>К списанию доступно: 2040Р</h5>
+						</div>
+						<div>
+							<h4 class="font-semibold">Выбрать адрес доставки:</h4>
+							<div class="flex mb-1">
+								<input class="w-6 h-6 mr-2" type="checkbox" id="address-1">
+								<label class="text-xs text-gray-500" for="address-1">Ул. Машинная, д. 1</label>
+							</div>
+							<div class="flex mb-1">
+								<input class="w-6 h-6 mr-2" type="checkbox" id="address-2">
+								<label class="text-xs text-gray-500" for="address-2">Ул. Машинная, д. 2</label>
+							</div>
+							<div class="mt-3">
+								<h5>Указать новый адрес:</h5>
+								<div class="flex">
+									<input class="border-2 border-solid border-gray-2 rounded-md" type="text"
+									       placeholder="Введите новый адрес">
+									<button class="ml-2 uppercase px-2 py-1 bg-black text-white rounded-md">+</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex w-full md:w-1/2 flex-col justify-between">
+						<div class="flex items-center">
+							<h5>Списать баллы:</h5>
+							<input class="slider h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+							       type="range" id="count-points">
+							<h5 class="ml-2 bg-gray-2 px-1 py-1 rounded-md font-semibold">1950Р</h5>
+						</div>
+
+						<div>
+							<h5>Выбрать способ облаты:</h5>
+							<div class="flex">
+								<div class="border-2 border-solid border-gray-500 rounded-md px-2 pb-6 mr-2">
+									<h6 class="font-semibold mb-2">Системой быстрых платежей</h6>
+									<p>Оплата через приложение банка, подключенного к СБП</p>
+								</div>
+								<div class="border-2 border-solid border-gray-500 rounded-md px-2 pb-6 ml-2">
+									<h6 class="font-semibold mb-2">Новой картой онлайн</h6>
+									<p>Принимаем Visa, Mastercard и Мир</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="bg-gray-800 md:bg-white rounded-t-md shadow shadow-gray-500">
+			<div class="flex justify-between md:justify-center p-1 text-white md:text-black">
+				<div class="flex flex-col items-center md:flex-row mr-4">
+					<svg class="mr-1" width="20" height="26" viewBox="0 0 26 25" fill="none"
+					     xmlns="http://www.w3.org/2000/svg">
+						<path d="M25 3.40911V17.8932C25 19.0452 24.064 20.1251 22.912 20.2691L22.516 20.3172C19.9 20.6652 15.868 21.9971 13.564 23.2691C13.252 23.4491 12.736 23.4491 12.412 23.2691L12.364 23.2452C10.06 21.9852 6.04004 20.6652 3.43604 20.3172L3.08799 20.2691C1.93599 20.1251 1 19.0452 1 17.8932V3.3971C1 1.9691 2.16396 0.88911 3.59196 1.00911C6.11196 1.21311 9.92796 2.48515 12.064 3.81715L12.364 3.9971C12.712 4.21311 13.288 4.21311 13.636 3.9971L13.84 3.86512C14.596 3.39712 15.556 2.92911 16.6 2.50911V7.40513L19 5.80911L21.4 7.40513V1.14117C21.724 1.08117 22.036 1.04512 22.324 1.02112H22.396C23.824 0.901122 25 1.96911 25 3.40911Z"
+						      stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M13 4.39316V22.3932" stroke="#292D32" stroke-width="2" stroke-linecap="round"
+						      stroke-linejoin="round"/>
+						<path d="M21.4 1.1412V7.40517L19 5.80915L16.6 7.40517V2.50914C18.172 1.88514 19.924 1.3812 21.4 1.1412Z"
+						      stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<h4 class="font-medium">Каталог</h4>
+				</div>
+
+				<div class="flex mr-4 flex-col items-center md:flex-row">
+					<svg class="mr-1" width="20" height="26" viewBox="0 0 26 26" fill="none"
+					     xmlns="http://www.w3.org/2000/svg">
+						<path d="M13 25C19.6274 25 25 19.6274 25 13C25 6.37258 19.6274 1 13 1C6.37258 1 1 6.37258 1 13C1 19.6274 6.37258 25 13 25Z"
+						      stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M8.19997 2.20001H9.39997C7.05997 9.20801 7.05997 16.792 9.39997 23.8H8.19997"
+						      stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M16.6 2.20001C18.94 9.20801 18.94 16.792 16.6 23.8" stroke="#292D32" stroke-width="2"
+						      stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M2.2 17.8V16.6C9.20801 18.94 16.792 18.94 23.8 16.6V17.8" stroke="#292D32"
+						      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M2.2 9.40011C9.20801 7.06011 16.792 7.06011 23.8 9.40011" stroke="#292D32"
+						      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+
+					<h4 class="font-medium">Адреса</h4>
+				</div>
+				<div class="flex mr-4 flex-col items-center md:flex-row">
+					<svg class="mr-1" width="20" height="26" viewBox="0 0 26 30" fill="none"
+					     xmlns="http://www.w3.org/2000/svg">
+						<path d="M13.0001 14.9697C16.8577 14.9697 19.985 11.8425 19.985 7.98487C19.985 4.12724 16.8577 1 13.0001 1C9.1425 1 6.01526 4.12724 6.01526 7.98487C6.01526 11.8425 9.1425 14.9697 13.0001 14.9697Z"
+						      stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M25 28.9395C25 23.5332 19.6216 19.1606 13 19.1606C6.37835 19.1606 1 23.5332 1 28.9395"
+						      stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+
+					<h4 class="font-medium">Профиль</h4>
+				</div>
+				<div class="flex mr-4 flex-col items-center md:flex-row">
+					<svg class="mr-1" width="20" height="26" viewBox="0 0 24 25" fill="none"
+					     xmlns="http://www.w3.org/2000/svg">
+						<path d="M19.331 18.8289H7.17779C6.04806 18.8289 4.96397 18.3496 4.1994 17.5166C3.43483 16.6835 3.04686 15.5652 3.13815 14.4355L4.0853 3.06968C4.11953 2.71593 3.994 2.37359 3.75436 2.11113C3.51472 1.84867 3.18379 1.71172 2.83004 1.71172H0.855859C0.387989 1.71172 0 1.32373 0 0.855859C0 0.387989 0.387989 0 0.855859 0H2.84146C3.6745 0 4.46187 0.353755 5.02103 0.958562C5.32914 1.30091 5.55738 1.70031 5.6829 2.14535H19.9358C21.0884 2.14535 22.1496 2.60181 22.9256 3.42343C23.6902 4.25647 24.0782 5.34056 23.9869 6.49311L23.3706 15.0517C23.2451 17.14 21.4193 18.8289 19.331 18.8289ZM5.73996 3.84566L4.84987 14.5724C4.79281 15.2343 5.00963 15.8619 5.45467 16.3526C5.89972 16.8433 6.51593 17.1058 7.17779 17.1058H19.331C20.5178 17.1058 21.5905 16.1016 21.6818 14.9148L22.298 6.35619C22.3436 5.68291 22.1268 5.04387 21.6818 4.576C21.2367 4.09672 20.6205 3.83424 19.9472 3.83424H5.73996V3.84566Z"
+						      fill="#292D32"/>
+						<path d="M17.1172 24.5346C15.8619 24.5346 14.8349 23.5076 14.8349 22.2523C14.8349 20.9971 15.8619 19.97 17.1172 19.97C18.3724 19.97 19.3995 20.9971 19.3995 22.2523C19.3995 23.5076 18.3724 24.5346 17.1172 24.5346ZM17.1172 21.6817C16.7977 21.6817 16.5466 21.9328 16.5466 22.2523C16.5466 22.5718 16.7977 22.8229 17.1172 22.8229C17.4367 22.8229 17.6878 22.5718 17.6878 22.2523C17.6878 21.9328 17.4367 21.6817 17.1172 21.6817Z"
+						      fill="#292D32"/>
+						<path d="M7.98801 24.5346C6.73275 24.5346 5.70572 23.5076 5.70572 22.2523C5.70572 20.9971 6.73275 19.97 7.98801 19.97C9.24327 19.97 10.2703 20.9971 10.2703 22.2523C10.2703 23.5076 9.24327 24.5346 7.98801 24.5346ZM7.98801 21.6817C7.66849 21.6817 7.41744 21.9328 7.41744 22.2523C7.41744 22.5718 7.66849 22.8229 7.98801 22.8229C8.30753 22.8229 8.55858 22.5718 8.55858 22.2523C8.55858 21.9328 8.30753 21.6817 7.98801 21.6817Z"
+						      fill="#292D32"/>
+						<path d="M22.5376 8.55858H8.84387C8.376 8.55858 7.98801 8.17059 7.98801 7.70272C7.98801 7.23485 8.376 6.84686 8.84387 6.84686H22.5376C23.0055 6.84686 23.3935 7.23485 23.3935 7.70272C23.3935 8.17059 23.0055 8.55858 22.5376 8.55858Z"
+						      fill="#292D32"/>
+					</svg>
+
+					<h4 class="font-medium">Корзина</h4>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
